@@ -29,7 +29,7 @@
       ],
       "accept": [
         "didcomm/aip2;env=rfc19"
-      ],
+      ]
     }
   ],
   "alsoKnownAs": []
