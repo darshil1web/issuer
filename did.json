@@ -21,7 +21,7 @@
   "service": [
     {
       "id": "did:web:darshil1web.github.io:issuer#did-communication",
-      "type": "did-communication",
+      "type": "DIDCommMessaging",
       "serviceEndpoint": "http://192.168.1.9:9063",
       "recipientKeys": [
         "did:web:darshil1web.github.io:issuer#key-1"
