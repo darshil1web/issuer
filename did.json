@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:darshil1web.github.io:issuer",
+  "verificationMethod": [
+    {
+      "id": "did:web:darshil1web.github.io:issuer#key-1",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:darshil1web.github.io:issuer",
+      "publicKeyBase58": "FWNnQC6FMaMDMFmFhBybdD6vBQ3VyEnWj3tro3K9fNtG"
+    }
+  ],
+  "authentication": [
+    "did:web:darshil1web.github.io:issuer#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:darshil1web.github.io:issuer#key-1"
+  ],
+  "service": [
+    {
+      "id": "did:web:darshil1web.github.io:issuer#did-communication",
+      "type": "DIDCommMessaging",
+      "serviceEndpoint": "http://192.168.1.9:9063"
+    }
+  ],
+  "alsoKnownAs": []
+}
