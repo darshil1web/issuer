@@ -23,7 +23,13 @@
     {
       "id": "did:web:darshil1web.github.io:issuer#did-communication",
       "type": "did-communication",
-      "serviceEndpoint": "http://192.168.1.9:9063"
+      "serviceEndpoint": "http://192.168.1.9:9063",
+      "recipientKeys": [
+        "did:web:darshil1web.github.io:issuer#key-1"
+      ],
+      "accept": [
+        "didcomm/aip2;env=rfc19"
+      ],
     }
   ],
   "alsoKnownAs": []
